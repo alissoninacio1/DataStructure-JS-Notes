@@ -1,0 +1,18 @@
+Grafo:
+
+Adicionar/remover vértice ou aresta: O(1) ou O(V) onde V é o número de vértices.
+Verificar a existência de uma aresta entre dois vértices: O(1) ou O(V) onde V é o número de vértices.
+Percurso em profundidade (DFS) ou percurso em largura (BFS): O(V + E) onde V é o número de vértices e E é o número de arestas.
+Encontrar um caminho entre dois vértices (usando DFS ou BFS): O(V + E) onde V é o número de vértices e E é o número de arestas.
+Verificar se o grafo é cíclico: O(V + E) onde V é o número de vértices e E é o número de arestas.
+Verificar a existência de um ciclo: O(V + E) onde V é o número de vértices e E é o número de arestas.
+
+
+Árvore:
+
+Adicionar/remover nó: O(log N) onde N é o número de nós na árvore (em uma árvore balanceada).
+Buscar nó específico: O(log N) onde N é o número de nós na árvore (em uma árvore balanceada).
+Percurso em ordem, pré-ordem ou pós-ordem: O(N) onde N é o número de nós na árvore.
+Encontrar a altura da árvore: O(N) onde N é o número de nós na árvore (em uma árvore não balanceada).
+Verificar se é uma árvore de busca binária válida: O(N) onde N é o número de nós na árvore.
+Essas complexidades podem variar dependendo da implementação específica e da estrutura da árvore ou do grafo. Em geral, estruturas de dados balanceadas tendem a ter melhor desempenho em operações como busca e inserção.
