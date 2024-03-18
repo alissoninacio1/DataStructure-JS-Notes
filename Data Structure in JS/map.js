@@ -1,7 +1,7 @@
 /**
  Map
 
- * A map is an unordered collection of key-value pairs. Both keys and values can be of any type
+ * A map is an ordered collection of key-value pairs. Both keys and values can be of any type
  * to retrieve a value you can use the corresponding key
  * Maps are iterables - they can be used with a for loop
  * 
